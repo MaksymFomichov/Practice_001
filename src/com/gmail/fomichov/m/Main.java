@@ -5,12 +5,17 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int a, b;
+        int a, b, temp;
         System.out.println("Введите первое число:");
         a = checkInt();
         System.out.println("Введите второе число:");
         b = checkInt();
-        System.out.println(b + " " + a);
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println(a + " " + b);
+
+
     }
 
     // проверяем на целое число
