@@ -2,7 +2,7 @@ package com.gmail.fomichov.m;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_01 {
 
     public static void main(String[] args) {
         int a, b, temp;
