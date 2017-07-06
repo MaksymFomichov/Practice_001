@@ -21,7 +21,7 @@ public class Main_2 {
             dataArrayReverse[i] = dataArray[dataArray.length - i - 1];
         }
 
-        System.out.println("Первый массив " + Arrays.toString(dataArray));
+        System.out.println("Основной массив " + Arrays.toString(dataArray));
         System.out.println("Перевернутый массив " + Arrays.toString(dataArrayReverse));
 
     }
